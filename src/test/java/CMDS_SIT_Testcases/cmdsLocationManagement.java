@@ -35,7 +35,6 @@ public class cmdsLocationManagement extends BaseTest {
 
 	@Test(priority = 1, dataProvider = "users", description = "Login Test")
 	public void abc(String username, String password, String fullName) throws InterruptedException {
-
 		HashMap<String, String> details = new HashMap<String, String>();
 
 		details.put("externalLocationUuid", "e14d0751-da5b-4218-bf7a-d9a44cbed86e");
